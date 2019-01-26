@@ -1,5 +1,5 @@
 .idea/
-build/
-cmake-build*
+/build*
+/cmake-build*
 /include
 /lib
