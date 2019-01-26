@@ -1,5 +1,4 @@
 #include "timer/timer.h"
-
 #include <stdlib.h>
 
 static void changed_time(void *instance, const uint32_t new_time);

@@ -11,7 +11,4 @@ typedef struct
     change_notification notification;
 } observer;
 
-observer *observer_create(void);
-void observer_destroy(observer *self);
-
 #endif

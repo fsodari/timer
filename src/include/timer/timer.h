@@ -1,8 +1,9 @@
 #ifndef TIMER_TIMER_H
 #define TIMER_TIMER_H
 
-#include "timer/observer.h"
 #include "timer/source.h"
+#include "timer/observer.h"
+#include <stdint.h>
 
 typedef struct timer_struct * timer;
 
