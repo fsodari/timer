@@ -2,7 +2,7 @@ find_package(CppUTest REQUIRED)
 
 add_library(timer_test EXCLUDE_FROM_ALL timer_test.cpp)
 target_include_directories(timer_test PRIVATE ${CMAKE_SOURCE_DIR}/src/include)
-target_link_libraries(timer_test timer_source timer_observer)
+target_link_libraries(timer_test source timer observer)
 target_link_libraries(timer_test CppUTest CppUTestExt)
 
 add_executable(run_all_tests EXCLUDE_FROM_ALL run_all_tests.cpp)
